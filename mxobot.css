@@ -1,7 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css");
 @import url("https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css");
 #menu {
-  width: 340px;
+  width: 360px;
   height: 430px;
   background-color: #282828;
   position: relative;
@@ -16,7 +16,7 @@
 }
 .lovely-division {
   background-color: #111111;
-  width: 500px;
+  width: 360px;
   position: relative;
   height: 430px;
   margin: 0 auto;
