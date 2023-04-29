@@ -95,6 +95,16 @@ legend {
   padding-top: 5px;
 }
 
+.smalltext2 {
+  font-size: 5px;
+  color: gray;
+  font-family: Impact;
+  text-align: left;
+  margin-left: 27px;
+  margin-bottom: 7px;
+  padding-top: 5px;
+}
+
 .control {
   font-family: Verdana;
   display: block;
