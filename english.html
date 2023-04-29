@@ -74,8 +74,30 @@
       </div>
     </fieldset>
     <fieldset2>
-      <div class="smalltext">Made By Mamii5955 & /u/Mamii</div>
-      <div class="smalltext">Discord: discord.gg/hKz8NN9fvE & Guilded: guilded.gg/mxo </div>
+      <button class="numinput butbigger along text" id="Mxobot_info">
+        Ѕtart botting</button
+      ><br /><button id="Mxobot_stop" class="numinput butbigger along text">
+        Stop botting
+      </button>
+      <div id="Mxobot-info" class="smalltext">Made By Mamii5955 & /u/Mamii</div>
+      <div id="Mxobot-info2" class="smalltext">Discord: discord.gg/hKz8NN9fvE & Guilded: guilded.gg/mxo </div>
     </fieldset2>
   </div>
 </div>
+<script>
+  var bottingInfo = document.getElementById("Mxobot-info","Mxobot-info2");
+  var bottingButton = document.getElementById("Mxobot_info");
+  var isBottingInfoVisible = false;
+  
+  bottingButton.addEventListener("click", function() {
+    if (!isBottingInfoVisible) {
+      bottingInfo.style.display = "block";
+      isBottingInfoVisible = true;
+      bottingButton.innerHTML = "Hide info";
+    } else {
+      bottingInfo.style.display = "none";
+      isBottingInfoVisible = false;
+      bottingButton.innerHTML = "Show info";
+    }
+  });
+</script>
